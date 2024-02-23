@@ -1,0 +1,195 @@
+body {
+  margin: 0px;
+}
+
+hr {
+  border: dotted 6px;
+  margin: 100px 0px;
+  color:#F0EDCF;
+  width: 6% ;
+  border-bottom: none;
+
+}
+
+.bad-script-regular {
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.top-container{
+    padding: 150px 100px;
+    margin: 0px 0px;
+    
+    background-image: url('./images/sea_bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.middle-container {
+  padding: 50px 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  padding: 60px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px; 
+  justify-content: center;
+  align-items: center;
+} 
+
+.bottom-container {
+  background-color: #0B60B0;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+}
+
+#title {
+    font-family: 'Bad Script';
+    color: #F0EDCF;
+    font-size: 75px;
+}
+
+#subtitle {
+    font-family: 'Libre Baskerville';
+    color: #F0EDCF;
+    font-size: 30px;
+}
+
+#profilePhoto {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+#profile {
+  font-family: 'Libre Baskerville';
+  color: #40A2D8;
+}
+
+#introduction {
+  font-family: 'Libre Baskerville';
+  color: rgb(0, 0, 0);
+  width: 400px;
+}
+
+#skillsTitle {
+  font-family: 'Libre Baskerville';
+  color: #0B60B0;
+}
+
+#contactButton {
+  background-color: #0B60B0;
+  padding: 10px 10px;
+  margin-top: 15px;
+}
+
+
+a {
+  color: #40A2D8;
+  text-decoration:none;
+  font-family: 'Libre Baskerville';
+  font-size: smaller;
+}
+
+a:visited {
+  color:#F0EDCF;
+}
+
+a:hover {
+  color: yellow;
+}
+
+#contactButton a {
+  color: #F0EDCF;
+}
+
+#contactButton a:hover {
+  color: yellow;
+}
+
+#socials {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.bottom-container li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#copyright {
+  color: #F0EDCF;
+  font-family: 'Libre Baskerville';
+}
